@@ -14,4 +14,8 @@ public class EchoClient extends Client {
         lMessage = JOptionPane.showInputDialog("Bitte geben Sie eine neue Nachricht ein:");
         send(lMessage);
     }
+    public static void main(String[] args) {
+        QOTD dtc = new QOTD("djxmmx.net");
+    }
+
 }
